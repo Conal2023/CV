@@ -1,0 +1,62 @@
+/* Full-page container */
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* Ensures full viewport height */
+}
+
+/* Personal details sidebar */
+.personal-details {
+    color: white;
+    text-align: center;
+    width: 25%;
+    background-color: rgb(4, 117, 179);
+    padding: 10px;
+    padding-top: 15em;
+    top: 50vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.profile-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/* Main content area */
+.main-content {
+    width: 75%; /* Correct percentage width */
+    padding: 40px;
+    overflow-y: auto;
+    
+   
+}
+
+.main-content > h2 {
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
